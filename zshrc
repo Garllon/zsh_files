@@ -56,6 +56,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export PATH=$PATH:$HOME/code/kaeuferportal/command_line_tools_kp/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
