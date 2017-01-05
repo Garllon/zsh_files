@@ -86,3 +86,5 @@ export EDITOR=vim
 alias bi='bundle install'
 alias bu='bundle update'
 alias be='bundle exec'
+alias deploy='$HOME/code/kaeuferportal/deployment/deploy_app.sh deploy'
+alias connect='$HOME/code/kaeuferportal/deployment/deploy_app.sh connect'
