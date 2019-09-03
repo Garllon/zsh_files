@@ -17,7 +17,6 @@ export RAILS_ENV=development
 export RACK_ENV=development
 ...
 ```
-
 ### Setup
 
 Run the following in your console:
