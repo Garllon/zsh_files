@@ -21,3 +21,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/node@10/bin:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+alias login_to_aws='$HOME/code/garllon/zsh_files/login_to_aws.sh'
