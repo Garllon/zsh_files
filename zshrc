@@ -9,15 +9,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export EDITOR=vim
-export PATH=$PATH:$HOME/code/kaeuferportal/command_line_tools_kp/bin
-source $HOME/code/garllon/zsh_files/env_variables
 
 # aliases
 alias bi='bundle install'
 alias bu='bundle update'
 alias be='bundle exec'
-alias deploy='$HOME/code/kaeuferportal/deployment/deploy_app.sh deploy'
-alias connect='$HOME/code/kaeuferportal/deployment/deploy_app.sh connect'
 alias gitkraken="open -na 'GitKraken' --args -p $(pwd)"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
